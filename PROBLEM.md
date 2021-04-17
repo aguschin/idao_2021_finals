@@ -46,7 +46,8 @@ The metric implementation could be found [here](https://github.com/aguschin/idao
 
 ## Input format
 
-You are provided with historical data for one year on customers who receive an offer to purchase PACL (Pre-Approved Credit Loan).
+You are provided with historical data for one year on customers who receive an offer to purchase PACL (Pre-Approved Credit Loan). Train data [could be downloaded here](https://disk.yandex.ru/d/XaSzELIxOveSnw). Note, that the test data is not available to you directly, but will be available to your submission when Yandex.Contest will run it.
+
 Data consists of the following files:
 - `trxn.csv`: Card operations data.
   Contains the following columns:

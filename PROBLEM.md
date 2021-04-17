@@ -73,7 +73,7 @@ Data consists of the following files:
 - `balance.csv`: Balance data.
   Contains the following columns:
   - `client_id`: Unique client ID.
-  - `prod_cat_nanme`: Product category.
+  - `prod_cat_name`: Product category.
   - `prod_group_name`: Product group.
   - `crncy_cd`: Currency ID.
   - `eop_bal_sum_rur`: EOP (End Of Period) sum of balance in current month in RUB.
@@ -127,6 +127,14 @@ Data consists of the following files:
   - `day_dt` : Payment date. 
   - `sum_rur` : Payment sum in RUB.
   - `pmnts_name` : Payment type.
+
+- `appl.csv` : client applications data. Contains the following columns:
+  - `client_id` : Client ID.
+  - `appl_prod_group_name` : product group name.
+  - `appl_prod_type_name` : product type name.
+  - `appl_stts_name_dc` : application status. 
+  - `appl_sale_channel_name` : sale channel.
+  - `month_end_dt`: Date (in the "end of the month" format)
     
 - `funnel.csv`: PACL sales funnel.
   Contains the following columns:

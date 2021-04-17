@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    command: make train
+    volumes:
+      - ./submission:/app
+      - ./tests/train_data_sample:/app/data
+      - ./generated_submissions:/submissions
+    working_dir: /app

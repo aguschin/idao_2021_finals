@@ -1,0 +1,5 @@
+client_id,contacts,sale_flg,sale_amount,split
+1,10,0,,public
+2,1,1,200000,public
+3,20,0,,private
+4,2,1,500000,private

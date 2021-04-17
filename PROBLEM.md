@@ -42,7 +42,7 @@ For each client you will need to submit either 0 or 1. We assume that the client
 - `sale_amount` - amount of money the bank earned on this particular loan.
 - `N` - the exact number of clients in the data subset for which the metric is calculated.
 
-The metric implementation could be found [here](https://github.com/aguschin/idao_2021_finals/blob/main/scorer.py).
+The metric implementation [could be found here](https://github.com/aguschin/idao_2021_finals/blob/main/scorer.py).
 
 ## Input format
 
@@ -148,7 +148,7 @@ For the run phase your code should process the data in the `data/` folder and is
 Test data in `data/` folder has the same format and set of columns as the train data, but the values in the (`contacts`, `sale_amount`, `sale_flg`) columns are missing. Note that `tests/test_data` has the exact same set of columns and could be used to test your solution locally.
 **submission.csv** should contain only two columns: `client_id` and `target`.
 
-Example solution, along with `Dockerfile` and `requirements.txt` can be found [here](https://github.com/aguschin/idao_2021_finals). `requirements.txt` contains all the libraries which are installed in the docker container. The container you build will have Python 3.8.5 installed. The version of gcc/g++ installed is 9.3.0. Note that Makefile should be contained in the archive immediately, not inside additional folder.
+Example solution, along with `Dockerfile` and `requirements.txt` [can be found here](https://github.com/aguschin/idao_2021_finals). `requirements.txt` contains all the libraries which are installed in the docker container. The container you build will have Python 3.8.5 installed. The version of gcc/g++ installed is 9.3.0. Note that Makefile should be contained in the archive immediately, not inside additional folder.
 
 Public leaderboard is based on 1/3 of the test data. 
 Private leaderboard is based on the remaining 2/3 and will be revealed after the end of competition.

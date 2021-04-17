@@ -156,6 +156,10 @@ Private leaderboard is based on the remaining 2/3 and will be revealed after the
 **Only the last successful submission** is used to compute public and private leaderbord scores.
 You should make sure, that at the end of competition the last successful submission is actually your very best attempt!
 
+## Resource constraints
+
+The solution your submit will run with resource constraints of 1 CPU and 2 Gb RAM. The time limit is 15 minutes. Note that the running time on your machine and on Yandex.Contest servers could be different due to different hardware.
+
 ## Notes
 
 You may use additional information, data, advice on your own risk. 

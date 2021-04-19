@@ -164,6 +164,10 @@ Private leaderboard is based on the remaining 2/3 and will be revealed after the
 **Only the last successful submission** is used to compute public and private leaderbord scores.
 You should make sure, that at the end of competition the last successful submission is actually your very best attempt!
 
+After the competition ends you will be asked to provide your training scripts along with the instruction on how to reproduce your submission. It's important, that **both training and inference should be reproducible**. Pin all random seeds and what else is required. We are going to check your solutions and try to reproduce model and other artifacts you supply in submission archive. The inference should be reproducible too - if your submission gives different results each time it is re-run in Yandex.Contest, we may disqualify it.
+
+Note, that you can train your models locally - you are not required to submit train scripts and force them to run in Yandex.Contest.
+
 ## Resource constraints
 
 The solution your submit will run with resource constraints of 1 CPU and 2 Gb RAM. The time limit is 15 minutes. Note that the running time on your machine and on Yandex.Contest servers could be different due to different hardware.
